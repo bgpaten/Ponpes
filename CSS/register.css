@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #D0E7D2;
+}
+
+header {
+    height: 75px;
+    display: flex;
+    padding: 0px 20px;
+}
+
+header .left a img {
+    margin-left: 100%;
+    height: 200px;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.hero-left {
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.hero-right {
+    padding: auto;
+    margin: auto;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid #618264;
+}
+
+.login form {
+    padding: 0px;
+    border-radius: 10px;
+}
+
+form h1 {
+    color: #eeeeee;
+    text-align: center;
+}
+
+form h2 {
+    color: #eeeeee;
+    border-bottom: 2px solid #618264;
+    text-align: center;
+}
+
+form label {
+    color: #eeeeee;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.form-user {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form-user:focus {
+    background-color: #eeeeee;
+    outline-color: #79AC78;
+}
+
+.form-password {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form-password:focus {
+    background-color: #eeeeee;
+    outline-color: #79AC78;
+}
+
+.btn {
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    cursor: pointer;
+    float: center;
+}
+
+.btn-primary a {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #618264;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #79AC78;
+}
+
+form p {
+    color: #eeeeee;
+}
+
+form p a {
+    color: #eeeeee;
+}
+
+@media screen and (max-width: 1440px) {
+    .hero-left img {
+        width: 80%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header .left a img {
+        margin-left: 30%;
+        height: 150px;
+    }
+
+    .login {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .left a img {
+        margin-left: 50%;
+    }
+    
+    .login {
+        padding: 25px;
+    }
+
+    .hero-left img {
+        margin-left: 5%;
+        width: 150%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .login {
+        margin-top: 40%;
+        margin-left: 0px;
+        padding: 50px;
+    }
+
+    header .left a img {
+        margin-left: 18%;
+    }
+}
